@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB2FF46C90028DC40B2C305D /* Pods_PhoneAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B7AB7F57DF864AAC1C595C0 /* Pods_PhoneAuth.framework */; };
+		9CE4A748A0708B2BF7A0F5D4 /* Pods_PhoneAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C94431C790298CAA3205B52 /* Pods_PhoneAuth.framework */; };
 		CFD4A51B2A7C7E940046A77D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD4A51A2A7C7E940046A77D /* AppDelegate.swift */; };
 		CFD4A51D2A7C7E940046A77D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD4A51C2A7C7E940046A77D /* SceneDelegate.swift */; };
 		CFD4A5242A7C7E960046A77D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD4A5232A7C7E960046A77D /* Assets.xcassets */; };
@@ -20,9 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B7AB7F57DF864AAC1C595C0 /* Pods_PhoneAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BDE1646470F67CCA54083A7 /* Pods-PhoneAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuth.debug.xcconfig"; path = "Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth.debug.xcconfig"; sourceTree = "<group>"; };
-		B6798C472F129B37055F6704 /* Pods-PhoneAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuth.release.xcconfig"; path = "Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth.release.xcconfig"; sourceTree = "<group>"; };
+		0F37099C8986F6302D7CC463 /* Pods-PhoneAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuth.debug.xcconfig"; path = "Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		450A761FF48BA4065EAE0570 /* Pods-PhoneAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuth.release.xcconfig"; path = "Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth.release.xcconfig"; sourceTree = "<group>"; };
+		8C94431C790298CAA3205B52 /* Pods_PhoneAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD4A5172A7C7E940046A77D /* PhoneAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD4A51A2A7C7E940046A77D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFD4A51C2A7C7E940046A77D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,28 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB2FF46C90028DC40B2C305D /* Pods_PhoneAuth.framework in Frameworks */,
+				9CE4A748A0708B2BF7A0F5D4 /* Pods_PhoneAuth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E40296DEF6C6FED8687A892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C94431C790298CAA3205B52 /* Pods_PhoneAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE24036A59044CEC86E8E8C0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7BDE1646470F67CCA54083A7 /* Pods-PhoneAuth.debug.xcconfig */,
-				B6798C472F129B37055F6704 /* Pods-PhoneAuth.release.xcconfig */,
+				0F37099C8986F6302D7CC463 /* Pods-PhoneAuth.debug.xcconfig */,
+				450A761FF48BA4065EAE0570 /* Pods-PhoneAuth.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		C90BF5871C7CBB022467F58D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7B7AB7F57DF864AAC1C595C0 /* Pods_PhoneAuth.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CFD4A50E2A7C7E940046A77D = {
@@ -71,7 +71,7 @@
 				CFD4A5192A7C7E940046A77D /* PhoneAuth */,
 				CFD4A5182A7C7E940046A77D /* Products */,
 				AE24036A59044CEC86E8E8C0 /* Pods */,
-				C90BF5871C7CBB022467F58D /* Frameworks */,
+				1E40296DEF6C6FED8687A892 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +92,7 @@
 				CFD4A5352A7C7F1B0046A77D /* AuthManager.swift */,
 				CFD4A5232A7C7E960046A77D /* Assets.xcassets */,
 				CFD4A5252A7C7E960046A77D /* LaunchScreen.storyboard */,
+				CFD4A5282A7C7E960046A77D /* Info.plist */,
 			);
 			path = PhoneAuth;
 			sourceTree = "<group>";
@@ -109,7 +110,6 @@
 		CFD4A5392A7C84770046A77D /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				CFD4A5282A7C7E960046A77D /* Info.plist */,
 				CFD4A5372A7C7FDF0046A77D /* GoogleService-Info.plist */,
 			);
 			path = Config;
@@ -131,11 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFD4A52B2A7C7E960046A77D /* Build configuration list for PBXNativeTarget "PhoneAuth" */;
 			buildPhases = (
-				2455565F30C099D2FDFA095B /* [CP] Check Pods Manifest.lock */,
+				4A5A612133C918E0AFC2BF12 /* [CP] Check Pods Manifest.lock */,
 				CFD4A5132A7C7E940046A77D /* Sources */,
 				CFD4A5142A7C7E940046A77D /* Frameworks */,
 				CFD4A5152A7C7E940046A77D /* Resources */,
-				8B4336B0B6233A6AB5565434 /* [CP] Embed Pods Frameworks */,
+				0C88BFA6BAEF1E4A6BDCC971 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,7 +193,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2455565F30C099D2FDFA095B /* [CP] Check Pods Manifest.lock */ = {
+		0C88BFA6BAEF1E4A6BDCC971 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A5A612133C918E0AFC2BF12 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -213,23 +230,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8B4336B0B6233A6AB5565434 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhoneAuth/Pods-PhoneAuth-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -378,7 +378,7 @@
 		};
 		CFD4A52C2A7C7E960046A77D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BDE1646470F67CCA54083A7 /* Pods-PhoneAuth.debug.xcconfig */;
+			baseConfigurationReference = 0F37099C8986F6302D7CC463 /* Pods-PhoneAuth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -391,6 +391,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,7 +407,7 @@
 		};
 		CFD4A52D2A7C7E960046A77D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6798C472F129B37055F6704 /* Pods-PhoneAuth.release.xcconfig */;
+			baseConfigurationReference = 450A761FF48BA4065EAE0570 /* Pods-PhoneAuth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,6 +420,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
